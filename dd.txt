@@ -1,2 +1,3 @@
 Hello, world
 log 1
+log 2
