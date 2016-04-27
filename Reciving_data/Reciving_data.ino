@@ -60,7 +60,7 @@ void loop() {
     y = k_I * sum_error * dt;
     z = k_D * (error - previous_error) / dt;
     Signal = x + y + z + intial_value ;
-    if (int(angle) > 50) {//safity
+    if (int(angle) > 30) {//safity
       check = false;
     }
     motor_1.writeMicroseconds( Signal);
